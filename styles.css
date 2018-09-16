@@ -28,19 +28,19 @@ body{
 
 div.sunia_palka_veluka {
 	background-image: url("./images/sunia_palka_veluka.png");
+
 }
 
 
 
-#dinosaur {
+.dinosaur {
 	background-image: url("./images/adolf.png");
 	background-repeat: no-repeat;
-	right: 50%;
-	position: absolute;
+    position: absolute;
     margin: 0px -96px;
-    background-size: 192px 336px;
-    height: 336px;
-    width: 192px;
-    bottom: 50%;
-    left: 50%;
+    background-size: 900px 1600px;
+    height: 1600px;
+    width: 900px;
+    bottom: -46%;
+    left: -19%;
 }
