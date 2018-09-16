@@ -1,0 +1,46 @@
+body{
+	background-color: #fef4db;
+}
+.wrapper{
+	min-height: 100%;
+	position: absolute;
+	overflow: hidden;
+	display: table;
+	height: 100%;
+	width: 100%;
+	left: 0;
+	top: 0;
+}
+
+#scene {
+	width: 100%;
+	height: 100%;
+	padding: 150px;
+}
+
+#scene .layer{
+    display: block;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+div.sunia_palka_veluka {
+	background-image: url("./images/sunia_palka_veluka.png");
+}
+
+
+
+#dinosaur {
+	background-image: url("./images/adolf.png");
+	background-repeat: no-repeat;
+	right: 50%;
+	position: absolute;
+    margin: 0px -96px;
+    background-size: 192px 336px;
+    height: 336px;
+    width: 192px;
+    bottom: 50%;
+    left: 50%;
+}
