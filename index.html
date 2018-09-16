@@ -6,9 +6,55 @@
   src="https://code.jquery.com/jquery-3.3.1.min.js"
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
   crossorigin="anonymous"></script>
-	<title>petro</title>
+	<title>adolf</title>
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 </head>
 <body>
-petro
+	<div class="wrapper">
+	
+		<div id="scene" data-scalar-x="25" data-scalar-y="15">
+		  <div id="first" data-depth="0.2">Marta</div>
+		  <div id="second" data-depth="0.8">Бухлішко</div>
+		</div>
+
+	</div>
+
+	<script type="text/javascript">
+
+		var scene = document.getElementById('scene');
+		var parallaxInstance = new Parallax(scene, {
+			relativeInput: true
+		});
+
+	</script>
+
+	<style type="text/css">
+		.wrapper{
+			min-height: 100%;
+			position: absolute;
+			overflow: hidden;
+			display: table;
+			height: 100%;
+			width: 100%;
+			left: 0;
+			top: 0;
+		}
+
+		#scene {
+			width: 100%;
+			height: 100%;
+		}
+
+		#scene #first, #scene #second {
+			margin: 0 auto;
+			color: red;
+			min-width: 100%;
+			min-height: 100%;
+			display: block;
+		}
+
+	</style>
+
 </body>
 </html>
