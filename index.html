@@ -20,11 +20,15 @@
 		</div> -->
 
 		<ul id="scene" >
-			<li class="layer" data-depth="0.7">
+			<li id="sunia_palka_veluka" class="layer" data-depth="0.7">
 				<div class="sunia_palka_veluka"></div>
 			</li>
-			<li class="layer" id="bila_hvulka" data-depth="0.7">bila_hvulka</li>
-			<li class="layer" id="jovtuy kvadrat" data-depth="0.7">jovtuy kvadrat</li>
+			<li class="layer" id="bila_hvulka" data-depth="0.7">
+				<div class="bila_hvulka"></div>
+			</li>
+			<li class="layer" id="jovtuy_kvadrat" data-depth="0.7">
+				<div class="jovtuy_kvadrat"></div>
+			</li>
 			<li class="layer" data-depth="0.4">
 				<div class="dinosaur"></div>
 			</li>
@@ -40,7 +44,7 @@
 
 		var scene = document.getElementById('scene');
 		var parallaxInstance = new Parallax(scene, {
-			relativeInput: true
+			relativeInput: false
 		});
 
 	</script>

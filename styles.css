@@ -28,12 +28,34 @@ body{
 div.sunia_palka_veluka {
 	background-image: url("./images/sunia_palka_veluka.png");
 	background-repeat: no-repeat;
-	position: absolute;
-	background-size: 100%;
-    height: 100%;
-    width: 100%;
-    bottom: -46%;
-    left: -19%;
+    position: absolute;
+    background-size: 100vh;
+    height: 100vh;
+    width: 100vh;
+    bottom: 44%;
+    left: -46%;
+}
+
+div.bila_hvulka {
+	background-image: url("./images/bila_hvulka.png");
+	background-repeat: no-repeat;
+    position: absolute;
+    background-size: 100vh;
+    height: 100vh;
+    width: 100vh;
+    bottom: 44%;
+    left: -25%;
+}
+
+div.jovtuy_kvadrat {
+	background-image: url("./images/jovtuy_kvadrat.png");
+	background-repeat: no-repeat;
+    position: absolute;
+    background-size: 100vh;
+    height: 100vh;
+    width: 100vh;
+    bottom: 44%;
+    left: -25%;
 }
 
 .dinosaur {
