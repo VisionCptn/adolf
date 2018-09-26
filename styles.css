@@ -126,6 +126,10 @@ div.yellow_hirnia1 {
     top: -41%;
 }
 
+li#biluy_prjamokytnik {
+    z-index: 3;
+}
+
 div.biluy_prjamokytnik {
     background-image: url("./images/biluy_prjamokytnik.png");
     background-repeat: no-repeat;
@@ -135,7 +139,7 @@ div.biluy_prjamokytnik {
     height: 140vh;
     width: 100vh;
     left: -35%;
-    top: -37%;
+    top: -41%;
 }
 
 div.kylia {
