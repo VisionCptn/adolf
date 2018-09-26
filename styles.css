@@ -36,6 +36,10 @@ div.sunia_palka_veluka {
     left: -46%;
 }
 
+li#bila_hvulka {
+    z-index: 1;
+}
+
 div.bila_hvulka {
 	background-image: url("./images/bila_hvulka.png");
 	background-repeat: no-repeat;
@@ -45,6 +49,10 @@ div.bila_hvulka {
     width: 100vh;
     bottom: 44%;
     left: -25%;
+}
+
+li#jovtuy_kvadrat {
+    z-index: 1;
 }
 
 div.jovtuy_kvadrat {
@@ -58,13 +66,85 @@ div.jovtuy_kvadrat {
     left: -25%;
 }
 
+li#dinosaur {
+    z-index: 2;
+}
+
 div.dinosaur {
 	background-image: url("./images/adolf.png");
     background-repeat: no-repeat;
    	position: absolute;
     background-size: 100vh;
-    height: 100vh;
+    height: 118vh;
     width: 100vh;
     left: -29%;
+    top: -41%;
+}
+
+li#mala_kulia {
+    z-index: 1;
+}
+
+div.mala_kulia {
+    background-image: url("./images/mala_kulia.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: 100vh;
+    height: 100vh;
+    width: 100vh;
+    left: -35%;
+    top: -41%;
+}
+
+li#sunia_linia_mensha {
+    z-index: 3;
+}
+
+div.sunia_linia_mensha {
+    background-image: url("./images/sunia_linia_mensha.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: 100vh;
+    height: 100vh;
+    width: 100vh;
+    left: -35%;
+    top: -41%;
+}
+
+li#yellow_hirnia1 {
+    z-index: 3;
+}
+
+div.yellow_hirnia1 {
+    background-image: url("./images/yellow_hirnia1.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: 100vh;
+    height: 112vh;
+    width: 100vh;
+    left: -35%;
+    top: -41%;
+}
+
+div.biluy_prjamokytnik {
+    background-image: url("./images/biluy_prjamokytnik.png");
+    background-repeat: no-repeat;
+    z-index: 3;
+    position: absolute;
+    background-size: 100vh;
+    height: 140vh;
+    width: 100vh;
+    left: -35%;
+    top: -37%;
+}
+
+div.kylia {
+    background-image: url("./images/kylia.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: 100vh;
+    height: 129vh;
+    width: 100vh;
+    left: -35%;
     top: -41%;
 }
