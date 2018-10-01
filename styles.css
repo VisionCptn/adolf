@@ -29,11 +29,11 @@ div.sunia_palka_veluka {
 	background-image: url("./images/sunia_palka_veluka.png");
 	background-repeat: no-repeat;
     position: absolute;
-    background-size: 100vh;
+    background-size: 120vh;
     height: 100vh;
     width: 100vh;
-    bottom: 44%;
-    left: -54%;
+    top: -77%;
+    left: -63%;
 }
 
 li#bila_hvulka {
@@ -44,11 +44,11 @@ div.bila_hvulka {
 	background-image: url("./images/bila_hvulka.png");
 	background-repeat: no-repeat;
     position: absolute;
-    background-size: 100vh;
-    height: 100vh;
+    background-size: 120vh;
+    height: 115vh;
     width: 100vh;
-    bottom: 44%;
-    left: -25%;
+    bottom: 39%;
+    left: -46%;
 }
 
 li#jovtuy_kvadrat {
@@ -59,11 +59,11 @@ div.jovtuy_kvadrat {
 	background-image: url("./images/jovtuy_kvadrat.png");
 	background-repeat: no-repeat;
     position: absolute;
-    background-size: 100vh;
-    height: 100vh;
+    background-size: 120vh;
+    height: 120vh;
     width: 100vh;
-    bottom: 44%;
-    left: -25%;
+    bottom: 40%;
+    left: -49%;
 }
 
 li#dinosaur {
@@ -74,26 +74,26 @@ div.dinosaur {
 	background-image: url("./images/adolf.png");
     background-repeat: no-repeat;
    	position: absolute;
-    background-size: 100vh;
-    height: 118vh;
+    background-size: 144vh;
+    height: 168vh;
     width: 100vh;
-    left: -29%;
-    top: -41%;
+    left: -64%;
+    top: -95%;
 }
 
 li#mala_kulia {
-    z-index: 1;
+    z-index: 3;
 }
 
 div.mala_kulia {
     background-image: url("./images/mala_kulia.png");
     background-repeat: no-repeat;
     position: absolute;
-    background-size: 100vh;
-    height: 100vh;
+    background-size: 136vh;
+    height: 136vh;
     width: 100vh;
-    left: -39%;
-    top: -44%;
+    left: -54%;
+    top: -83%;
 }
 
 li#sunia_linia_mensha {
@@ -104,11 +104,11 @@ div.sunia_linia_mensha {
     background-image: url("./images/sunia_linia_mensha.png");
     background-repeat: no-repeat;
     position: absolute;
-    background-size: 100vh;
-    height: 100vh;
-    width: 100vh;
-    left: -35%;
-    top: -41%;
+    background-size: 151vh;
+    height: 141vh;
+    width: 128vh;
+    left: -76%;
+    top: -101%;
 }
 
 li#yellow_hirnia1 {
@@ -119,11 +119,11 @@ div.yellow_hirnia1 {
     background-image: url("./images/yellow_hirnia1.png");
     background-repeat: no-repeat;
     position: absolute;
-    background-size: 100vh;
-    height: 112vh;
+    background-size: 127vh;
+    height: 146vh;
     width: 100vh;
-    left: -35%;
-    top: -41%;
+    left: -53%;
+    top: -70%;
 }
 
 li#biluy_prjamokytnik {
@@ -146,9 +146,9 @@ div.kylia {
     background-image: url("./images/kylia.png");
     background-repeat: no-repeat;
     position: absolute;
-    background-size: 100vh;
-    height: 129vh;
+    background-size: 120vh;
+    height: 154vh;
     width: 100vh;
-    left: -35%;
-    top: -41%;
+    left: -48%;
+    top: -65%;
 }
